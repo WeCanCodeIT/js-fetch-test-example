@@ -18,7 +18,7 @@ describe('testing api', () => {
 
 		//assert on the response
 		getStarWarsPerson(22).then(res => {
-			expect(res.json()).toEqual({
+			expect().toEqual({
 				name: 'Boba Fett',
 				height: '183',
 				mass: '78.2',
